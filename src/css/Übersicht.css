@@ -106,4 +106,9 @@
     
       
     }
+        /*infop ist reusable für alle Infobox headlines/Info-font anpassen*/
 
+.ueberschrift_uebersicht{
+  top: -100px;
+  left: 700px
+}
