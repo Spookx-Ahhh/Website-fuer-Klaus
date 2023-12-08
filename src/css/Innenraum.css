@@ -1,0 +1,112 @@
+/* Innenraum-Page
+
+    Kreis*/
+.div__innenraum {
+  height: 700px;
+  width: 700px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  object-position: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -400px;
+  margin-left: -500px;
+  border-style: solid;
+  border-color: #591e1a;
+}
+
+/* mein Kind */
+
+.dot_2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: black;
+  /* fallback-Farbe */
+  background-image: url("https://images.unsplash.com/photo-1574321616007-352adeda74d2?q=80&w=1720&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: 40%;
+  background-size: 150%;
+  transition: all .5s;
+}
+
+/* Zoomt sexy an Gebäude */
+.div__innenraum:hover .dot_2,
+.div__innenraum:focus .dot_2 {
+  background-size: 200%;
+}
+
+.box_3 {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 1000px;
+  width: 300px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #591e1a;
+}
+
+.box_4 {
+  position: absolute;
+  top: 200px;
+  right: -10px;
+  height: 1000px;
+  width: 275px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #591e1a;
+}
+
+
+/* Infobox-Innenraum */
+.infobox_2 {
+  height: 75px;
+  width: 150px;
+  bottom: -500px;
+  left: 50px;
+  position: relative;
+  background-color: rgba(255, 255, 255, .5);
+  transform: rotate(-90deg);
+
+}
+
+.openbox_2 {
+  visibility: hidden;
+  height: 200px;
+  width: 750px;
+  left: -325px;
+  bottom: -500px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, .5);
+  transform: rotate(90deg);
+  transition: all 1s;
+}
+
+.infobox_2:hover,
+.infobox_2:hover .openbox_2 {
+  visibility: visible;
+  transition: all .5s;
+}
+
+/*infop ist reusable für alle Infobox headlines/Info-font anpassen*/
+.infop_2 {
+  font-size: 72px;
+  color: black;
+}
+
+.infotext_2 {
+  font-size: 25px;
+  visibility: hidden;
+  color: white;
+  transition: all 1s;
+}
+
+.infobox_2:hover .openbox_2,
+.infobox_2:hover .infotext_2 {
+  visibility: visible;
+  color: black;
+  transition: all 1s;
+
+}

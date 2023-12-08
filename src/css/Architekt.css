@@ -1,0 +1,106 @@
+/* Architekt-Page
+
+Kreis*/
+.div__architect{
+    height: 700px;   
+    width: 700px;   
+    background-color: #bbb;   
+    border-radius: 50%;   
+    display: inline-block;
+    position: absolute;
+    object-position: center;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -100px;
+    border-style: solid;
+    border-color: #591e1a;
+  }
+  
+    /* mein Kind */
+  
+  .dot_3{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black; /* fallback-Farbe */
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMmJhZWVjMmItZmM5Zi00NmE1LTgxMTYtMDQ2NjU0ZGYzM2YxXkEyXkFqcGdeQXVyNjk5MDQ5NjM@._V1_.jpg")  ;
+    background-position: 40%;
+    background-size: 150%;
+    transition: all .5s;
+  }
+  
+    /* Zoomt sexy an Gesicht ran */
+  .div__architect:hover .dot_3,
+  .div__architect:focus .dot_3 {
+    background-size: 180%;}
+  
+     /* Kästen-Deko */
+  
+  .box_5{
+    position: absolute;
+    top: -400px;
+    left:-650px;
+    height: 500px;
+    width: 800px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #591e1a;
+  }
+  
+  .box_6{
+    position: absolute;
+    top: 500px;
+    right:-100px;
+    height: 255px;
+    width: 275px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #591e1a;
+  }
+
+  /* Infobox-Architekt*/
+  .infobox_3{
+    height: 75px;
+    width: 150px;
+    top: -300px;
+    left: -600px;
+    position: relative;
+    background-color :rgba(255, 255, 255,.5);
+    transform: rotate(-90deg);
+    
+}
+.openbox_3{
+    visibility: hidden;
+    height:200px;
+    width:750px;
+    left:  -325px;
+    bottom: -500px;
+    position: absolute;
+    background-color:rgba(255, 255, 255,.5);
+    transform: rotate(90deg);
+    transition: all 1s;
+}
+.infobox_3:hover,.infobox_3:hover .openbox_3{
+    visibility: visible;
+    transition: all .5s;
+}
+
+/*infop ist reusable für alle Infobox headlines/Info-font anpassen*/
+.infop_3{
+    font-size: 72px;
+    color:black;
+}
+.infotext_3{
+    font-size: 25px;;
+    visibility: hidden;
+    color: white;
+    transition: all 1s;
+}
+.infobox_3:hover .openbox_3,
+.infobox_3:hover .infotext_3{
+    visibility: visible;
+    color: black;
+    transition: all 1s;
+    
+}

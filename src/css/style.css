@@ -1,0 +1,46 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+h2 {
+    color: rgb(170, 48, 48);
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    color: azure;
+    font-family: 'Exo', sans-serif;
+    font-size: 70px;
+    width: 220px;
+}
+
+#div__Nakagin {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.button__uebersicht {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 240, 250);
+    font-family: 'Exo', sans-serif;
+    font-size: 80px;
+    width: 270px;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(239, 244, 244);
+    font-family: 'Advent Pro', sans-serif;
+    /* font-family: 'Exo', sans-serif; */
+    font-family: 'Smooch Sans', sans-serif;
+
+}
+
+body {
+    background-color:  rgb(12, 12, 12);
+}
