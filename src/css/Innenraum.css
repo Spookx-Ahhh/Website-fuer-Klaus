@@ -59,13 +59,23 @@
   border-color: #591e1a;
 }
 
+.box_12 {
+  position: absolute;
+  bottom: -700px;
+  right: -10px;
+  height: 1000px;
+  width: 550px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #591e1a;
+}
 
 /* Infobox-Innenraum */
 .infobox_2 {
   height: 75px;
   width: 150px;
-  bottom: -500px;
-  left: 50px;
+  bottom: -410px;
+  left: 170px;
   position: relative;
   background-color: rgba(255, 255, 255, .5);
   transform: rotate(-90deg);

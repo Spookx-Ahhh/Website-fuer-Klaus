@@ -57,6 +57,17 @@
         border-style: solid;
         border-color: #591e1a;
       }
+
+      .box_13{
+        position: absolute;
+        top: -30px;
+        left:-180px;
+        height: 1000px;
+        width: 350px;
+        background-color: transparent;
+        border-style: solid;
+        border-color: #591e1a;
+      }
       
 
 /* Infobox */

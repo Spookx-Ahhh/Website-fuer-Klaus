@@ -31,6 +31,7 @@ body {
 
 
  .ueberschrift_glitch{
+    position: absolute;
      color: #fff;
      font-size: 96px;
      font-family: 'Exo', monospace;
