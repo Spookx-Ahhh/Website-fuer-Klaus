@@ -113,10 +113,27 @@
   transition: all 1s;
 }
 
+/*welchel der Farbigkeit beim Hovern*/
+
+.infobox_2:hover,
+.infop_2:hover {
+  background-color: rgba(17, 16, 16, .5);
+  color: white;
+}
+
+
 .infobox_2:hover .openbox_2,
 .infobox_2:hover .infotext_2 {
   visibility: visible;
   color: black;
   transition: all 1s;
 
+}
+
+/*Position der überschrift und glitch*/
+.ueberschrift_innenraum {
+  position: absolute;
+  top: 200px;
+  right: 170px;
+  transform: rotate(90deg);
 }

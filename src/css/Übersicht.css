@@ -102,13 +102,23 @@
     .infop{
         font-size: 72px;
         color:black;
+
     }
     .infotext{
         font-size: 25px;;
         visibility: hidden;
         color: white;
         transition: all 1s;
+      
     }
+
+     /*welchel der Farbigkeit beim Hovern*/
+    .infobox:hover,
+    .infop:hover{
+      background-color: rgba(17, 16, 16,.5);
+      color: white;
+    }
+
     .infobox:hover .openbox,
     .infobox:hover .infotext{
         visibility: visible;
@@ -117,9 +127,11 @@
     
       
     }
-        /*infop ist reusable für alle Infobox headlines/Info-font anpassen*/
+
+        /*Position der überschrift und glitch*/
 
 .ueberschrift_uebersicht{
-  top: -100px;
-  left: 700px
+  position: absolute;
+  top: 220px;
+  left: 175px
 }
