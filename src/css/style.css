@@ -1,5 +1,6 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
+/* Voreinstellung der Typo */
 h2 {
     color: rgb(170, 48, 48);
     font-family: 'Exo', sans-serif;

@@ -112,7 +112,7 @@
       
     }
 
-     /*welchel der Farbigkeit beim Hovern*/
+     /*wechsel der Farbigkeit beim Hovern*/
     .infobox:hover,
     .infop:hover{
       background-color: rgba(17, 16, 16,.5);
